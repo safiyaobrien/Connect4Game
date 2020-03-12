@@ -5,10 +5,10 @@ public class Board {
 
     public Board() {
 
-        for(int row = 0; row < size; row++) {
-            for(int col = 0; col < size; col++) {
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col < size; col++) {
 
-                grid[row][col] = "0";
+                grid[row][col] = "-";
 
             }
         }
@@ -17,8 +17,8 @@ public class Board {
 
     public void printBoard() {
         System.out.println("Updated board:");
-        for(int row = 0; row < size; row++) {
-            for(int col = 0; col < size; col++) {
+        for (int row = 0; row < size; row++) {
+            for (int col = 0; col < size; col++) {
 
                 System.out.print(grid[row][col] + " ");  //prints out each value in each array
 
@@ -29,3 +29,4 @@ public class Board {
 
     }
 
+}
